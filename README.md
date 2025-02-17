@@ -26,6 +26,8 @@ The inbound rules control the incoming traffic to your instances. They are rules
 
 The goal is to see if your AWS RDS instance is connected to MySQL Workbench where you will do the data manipulation.
 
+![image_alt](
+
 - **Step 5: AWS S3 Bucket Setup**:
 
 Configure S3 bucket in AWS console where the data will be stored.
