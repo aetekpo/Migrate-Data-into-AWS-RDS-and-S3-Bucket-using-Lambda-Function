@@ -40,7 +40,7 @@ Follow the steps in AWS console to configure S3 bucket where the data will be st
    
   **a- Create role for the lambda function**: Every lambda function needs an execution role so that it has access to the right resources before it can run. After creating the role, we need to attach policies that grant permissions to the following services: AmazonS3FullAccess, CloudWatchLogsFullAccess, AmazonRDSDataFullAccess, AWSLambdaBasicExecutionRole.
 
- ![iamge_alt](
+ ![iamge_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Roles_Policies_Image.png?raw=true)
 
   **b- Create the Lambda function in AWS console**: When creating the lambda function, make sure you select the execution role you just created under existing role.
 
