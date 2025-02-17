@@ -19,6 +19,7 @@ Follow the steps needed to create RDS in AWS console. When creating MySQL RDS in
 
 The inbound rules control the incoming traffic to your instances. They are rules that let data or clients into the security group.
 
+![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/VPC_Image.png?raw=true)
 
 
 - **Step 4: Test the connection between the AWS RDS and MySQL Workbench**:
