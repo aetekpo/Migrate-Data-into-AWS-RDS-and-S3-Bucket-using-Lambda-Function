@@ -26,11 +26,13 @@ The inbound rules control the incoming traffic to your instances. They are rules
 
 The goal is to see if your AWS RDS instance is connected to MySQL Workbench where you will do the data manipulation.
 
-![image_alt](
+![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/RDS%20Connection%20Image.png?raw=true)
 
 - **Step 5: AWS S3 Bucket Setup**:
 
-Configure S3 bucket in AWS console where the data will be stored.
+Follow the steps in AWS console to configure S3 bucket where the data will be stored.
+
+![image_alt](
 
 - **Step 6: Lambda Function Setup**:
 
