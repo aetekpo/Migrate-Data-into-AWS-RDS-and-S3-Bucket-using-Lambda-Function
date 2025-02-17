@@ -49,7 +49,11 @@ Follow the steps in AWS console to configure S3 bucket where the data will be st
   **d- Add layers to the lambda function**: Why do we have to create layers for the lambda function? In the python code, we have imported two modules (requests and pymysql) that are not integrated in AWS. In order for the code to run successfully, we have to create layer for each module. Packages for all dependencies were created and zip files were uploaded and attached to the function in AWS console. To watch video on how to create layers, click 👉 [here](https://www.youtube.com/watch?v=mTYp4lTWMAw). 
 The Lambda function has the needed layers, right IAM role, now we need to configure the environment variables.
 
-   **e- Configure the environment variables and Test the Lambda function**: Why do we have to configure the environment variables? In the python code, we used environment variables for the API key, the bucket name, the guardian url, the RDS host, RDS user, RDS password, and RDS database. The required environment variables were created under the configuration setting and lambda function was tested. 
+   **e- Configure the environment variables and Test the Lambda function**: Why do we have to configure the environment variables? In the python code, we used environment variables for the API key, the bucket name, the guardian url, the RDS host, RDS user, RDS password, and RDS database. The required environment variables were created under the configuration setting. 
+
+   ![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Env_Variables.png?raw=true)
+
+   **f- Deploy and test Lambda function**: After setting up the environment variables, the lambda function was deployed and tested
 
    ![image_alt](
 
