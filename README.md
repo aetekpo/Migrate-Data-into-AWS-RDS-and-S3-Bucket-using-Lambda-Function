@@ -1,7 +1,9 @@
 # Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function
 ## Overview
 In this project, I would like to create a Lambda function that will be triggered when data is retrieved from The Guardian News API, and then writes the data into an S3 bucket and an AWS MySQL RDS instance.
-(Add project overview Image here)
+
+![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Guardian_Project_Image.png?raw=true)
+
 ## Step-by-Step Guide:
 - **Step 1: Get the API Key**:
 
