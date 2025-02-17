@@ -46,11 +46,12 @@ Follow the steps in AWS console to configure S3 bucket where the data will be st
 
   **c- Write the python code for the lambda function**: Insert python code that will pull the data from Guardian News API and store it in S3 and RDS instance.
 
-  **d- Add layers to the lambda function**: Why do we have to create a layers for the lambda function? We have to create layers (requests and pymysql) modules are not integrated in AWS. Packages for all dependencies were created and zip file was uploaded in AWS console. To watch video on how to create layers, click 👉 [here](https://www.youtube.com/watch?v=mTYp4lTWMAw). 
+  **d- Add layers to the lambda function**: Why do we have to create layers for the lambda function? In the python code, we have imported two modules (requests and pymysql) that are not integrated in AWS. In order for the code to run successfully, we have to create layer for each module. Packages for all dependencies were created and zip files were uploaded and attached to the function in AWS console. To watch video on how to create layers, click 👉 [here](https://www.youtube.com/watch?v=mTYp4lTWMAw). 
+The Lambda function has the needed layers, right IAM role, now we need to configure the environment variables.
 
-The Lambda function has the needed layers, right IAM role, now we need to configure the environment variables
+   **e- Configure the environment variables and Test the Lambda function**: Why do we have to configure the environment variables? In the python code, we used environment variables for the API key, the bucket name, the guardian url, the RDS host, RDS user, RDS password, and RDS database. The required environment variables were created under the configuration setting and lambda function was tested. 
 
-   **e- Configure the environment variables and Test the Lambda function**: Why do we have to configure the environment variables? In the python code, we used environment variables for the API key, the bucket name, the guardian url, the RDS host, RDS user, RDS password, and RDS database. Add the required environment variables and test the function (ADD image.)
+   ![image_alt](
 
    **e- Schedule Lambda function with EventBridge**: Create a rule in Amazon EventBridge and define the schedule pattern on how the data will be pulled. For example, it can be every 15 or 30 minutes. 
 
