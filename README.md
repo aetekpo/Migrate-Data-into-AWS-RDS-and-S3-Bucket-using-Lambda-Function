@@ -61,9 +61,14 @@ The Lambda function has the needed layers, right IAM role, now we need to config
 
    **g- Schedule Lambda function with EventBridge**: The EventBridge trigger automatically invokes an AWS lambda function based on the defined schedule pattern. We created a rule in Amazon EventBridge and defined the schedule pattern on how the data will be pulled. It was set to every 30 minutes. 
 
-   **h- Check the data in MySQL WorkBench**: Log into MySQL Workbench to check if the data has been loaded in the database.
+   **h- Check the data in MySQL WorkBench**: Log into MySQL Workbench and run MySQL Select statement. Data has been loaded successfully.
 
-   
+   ![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/MySQL_Image.png?raw=true)
+
+   - **Step 7: Challenges faced while working on the project**:
+
+     1- Try to figure out how to create layers for the lambda function. Refer to the link provided above.
+     2- Try to configure the environment variables. Note that you don't have to provide the actual values of the variables in your code. They are just a placeholder. You have to provide them in the AWS console. 
 
    
 
