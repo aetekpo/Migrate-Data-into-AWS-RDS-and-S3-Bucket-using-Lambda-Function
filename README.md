@@ -67,8 +67,11 @@ The Lambda function has the needed layers, right IAM role, now we need to config
 
    - **Step 7: Challenges faced while working on the project**:
 
-     1- Try to figure out how to create layers for the lambda function. Refer to the link provided above.
-     2- Try to configure the environment variables. Note that you don't have to provide the actual values of the variables in your code. They are just a placeholder. You have to provide them in the AWS console. 
+     1- Try to figure out how to create layers for the lambda function. Refer to 👉 [here](https://www.youtube.com/watch?v=mTYp4lTWMAw).
+     
+     2- Try to configure the environment variables. Note that you don't have to provide the actual values of the variables in your code. They are just a placeholder. You have to provide them in the AWS console.
+
+![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Env_Variables_Code.png?raw=true).
 
    
 
