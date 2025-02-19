@@ -53,7 +53,7 @@ The Lambda function has the needed layers, the right IAM role, now we need to co
 
    **e- Configure the environment variables and Test the Lambda function**: Why do we have to configure the environment variables? In the Python code, we used environment variables for the API key, the bucket name, the guardian url, the RDS host, RDS user, RDS password, and RDS database. The required environment variables were created under the configuration setting. 
 
-   ![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Env_Variables.png?raw=true)
+   ![image_alt]()
 
    **f- Deploy and test Lambda function**: After setting up the environment variables, the lambda function was deployed and tested.
 
