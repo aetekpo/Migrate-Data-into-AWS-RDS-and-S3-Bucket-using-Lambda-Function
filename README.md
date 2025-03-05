@@ -71,7 +71,7 @@ The Lambda function has the needed layers, the right IAM role, now we need to co
      
      2- Try to configure the environment variables. Note that you don't have to provide the actual values of the variables in your code. They are just a placeholder. You have to provide them in the AWS console.
 
-![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Env_Variables_Code.png?raw=true).
+![image_alt](https://github.com/aetekpo/Migrate-Data-into-AWS-RDS-and-S3-Bucket-using-Lambda-Function/blob/main/Env_Variables_Code.png?raw=true).,
 
    
 
